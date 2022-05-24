@@ -1,0 +1,82 @@
+.tabs {
+  background-color: #f7fbff;
+}
+.textSection {
+  font-size: 24px;
+  font-family: "Poppins";
+}
+
+.tabIcon .btn-primary {
+  background: white;
+  border-radius: 15px;
+  text-align: left;
+  background-color: white;
+  color: rgba(116, 129, 148, 1);
+  /* transition: 0.5s ease-in-out; */
+}
+.tabIcon .btn-primary:hover {
+    background: white;
+    border-radius: 15px;
+    text-align: left;
+    background-color: white;
+    color: #0b5ed7;
+    transition: 0.5s ease-in-out;
+    outline: 1px solid #0b5ed7;
+  }
+.tabIcon .btn-check:active + .btn-primary,
+.btn-check:checked + .btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show > .btn-primary.dropdown-toggle {
+  color: rgba(116, 129, 148, 1);
+  background-color: white;
+  border-color: #0a53be;
+  outline: 1px solid #0a53be;
+}
+.tabIcon .btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  color: rgba(116, 129, 148, 1);
+  background-color: white;
+  border-color: #0a58ca;
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.tabIcon button:focus:not(:focus-visible) {
+  outline: 1px solid #0a58ca;
+}
+.tabIcon .svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  overflow: visible;
+  background-color: transparent;
+  color: rgba(116, 129, 148, 1);
+  border: none;
+  font-size: 20px;
+  border-radius: 30px;
+  vertical-align: -0.125em;
+}
+.tabIcon .btn-primary:hover .svg-inline--fa {
+  background-color: transparent;
+  color: #0a58ca;
+  border: none;
+  transition: 0.5s ease;
+}
+
+
+ @media (max-width: 768px) { 
+    .tabIcon .btn-primary {
+        background: white;
+        font-size: 15px;
+        border-radius: 15px;
+        height: 50px;
+        text-align: left;
+        background-color: white;
+        color: rgba(116, 129, 148, 1);
+    }
+    .tabIcon .svg-inline--fa {
+        display: none;}
+ }
+  @media (max-width: 576px) { 
+    .tabIcon .svg-inline--fa {
+        display: var(--fa-display, inline-block);
+    }
+
+}

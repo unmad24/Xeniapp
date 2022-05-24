@@ -1,0 +1,43 @@
+*{
+    font-family: 'Poppins';
+}
+
+.footer{
+    background: rgba(240, 246, 254, 1);
+
+}
+.language{
+    text-align: right;
+    color: rgba(93, 110, 130, 1);
+    font-size: 15px;
+}
+.logoMark{
+    font-size: 20px;
+    color: rgba(52, 64, 80, 1);
+    font-weight: 700;
+}
+.titles{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 12px;
+
+}
+h6{
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: rgba(116, 129, 148, 1);
+}
+h6:hover{
+    color: rgba(21, 113, 252, 1);
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+p{
+    padding-top: 20px;
+    margin-right: 20px;
+    color: rgba(94, 94, 94, 1);
+    font-size: 13px;
+    font-weight: 400;
+
+}

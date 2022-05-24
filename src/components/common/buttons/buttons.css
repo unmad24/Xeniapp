@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+.login{
+    border: 1px solid #2A7BE4;
+    color: #2A7BE4;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: 'Poppins';
+    background-color: white;
+}
+.login:hover{
+    background-color: #2A7BE4;
+    color: white;
+    transition: .5s ease-in-out;
+}
+.toggler .dropdown-toggle::after {
+    display: none;
+  
+}
+.toggler{
+    margin-right: 10px;
+}
+.toggler .btn-primary{
+    background-color: transparent;
+    color: rgb(87, 87, 87);
+    border: none;
+}
+.toggler .btn-primary:hover {
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+}

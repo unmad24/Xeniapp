@@ -1,0 +1,36 @@
+.blogCds{
+    border: none;
+    box-shadow: none;
+}
+/* .cardImg{
+    cursor: pointer;
+    
+} */
+.overflow{
+    overflow: hidden;
+}
+.cardImg{
+    transform: scale(1);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    
+}
+.cardImg:hover{
+    transform: scale(.95);
+    border-radius: 10px;
+}
+/* .card-title, .card-subtitle{
+    padding-left: 12px;
+}
+.card-title{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(25,25,25,1);
+} 
+.card-subtitle{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(52, 64, 80, 1);
+} */ 
